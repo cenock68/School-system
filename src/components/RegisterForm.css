@@ -1,0 +1,164 @@
+/* .container-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background: url('../assets/Qatar-country-report.jpg')
+    center center no-repeat;
+    background-size: cover;
+  }
+
+
+  .container-1 .form-box {
+    background-color: #fff; 
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    max-width: 30%; 
+    
+  }
+  
+  .container-1 h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .container-1 form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container-1 input,
+  .container-1 select {
+    height: 3rem;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
+    border: 1px solid #2a2a2a;
+  }
+  
+  .container-1 textarea {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
+    border: 1px solid #2a2a2a;
+  }
+  
+  .container-1 button {
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    
+  }
+  
+  .container-1 button:hover {
+    background-color: #0056b3;
+  }
+  
+  .container-1 p {
+    text-align: center;
+    margin-top: 1rem;
+    color: #2a2a2a;
+  }
+  
+  .container-1 p a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .container-1 p a:hover {
+    text-decoration: underline;
+  }
+  
+  @media screen and (max-width: 850px) {
+    .container-1 {
+      padding: 2rem;
+    }
+  
+    .container-1 .form-box {
+      width: 100%;
+      padding: 1.5rem;
+    }
+  }
+   */
+   .container-1 {
+    display: flex; /* Use flexbox to center the form horizontally and vertically */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Set height to full viewport height */
+    background-color: #f8f9fa; /* Set a background color for the container */
+    background: url('../assets/Qatar-country-report.jpg')
+    center center no-repeat;
+    background-size: cover;
+  }
+  
+  .form-box {
+    background-color: #ffffff; /* Set the background color of the form box */
+    padding: 1.5rem; /* Reduce padding inside the form box */
+    border-radius: 0.5rem; /* Add border radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+    width: 100%; /* Ensure the form box is responsive */
+    max-width: 350px; /* Limit the maximum width of the form box */
+  }
+  
+  .form-box h2 {
+    margin-bottom: 0.75rem; /* Reduce margin at the bottom of the heading */
+    text-align: center; /* Center the heading text */
+  }
+  
+  .form-group {
+    margin-bottom: 0.75rem; /* Reduce margin at the bottom of each form group */
+  }
+  
+  .form-group label {
+    display: block; /* Display labels as block elements */
+    margin-bottom: 0.5rem; /* Add margin at the bottom of labels */
+    font-weight: bold; /* Make label text bold */
+  }
+  
+  .form-control {
+    width: 100%; /* Make form controls fill the width of their container */
+    padding: 0.4rem; /* Reduce padding inside form controls */
+    border: 1px solid #ced4da; /* Add a border to form controls */
+    border-radius: 0.3rem; /* Add border radius for rounded corners */
+    font-size: 0.9rem; /* Reduce the font size */
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; /* Add transitions for smooth effect */
+  }
+  
+  .form-control:focus {
+    border-color: #80bdff; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Add box shadow on focus */
+  }
+  
+  .btn {
+    width: 100%; /* Make buttons fill the width of their container */
+    padding: 0.4rem; /* Reduce padding inside buttons */
+    border: none; /* Remove the default border */
+    border-radius: 0.3rem; /* Add border radius for rounded corners */
+    font-size: 0.9rem; /* Reduce the font size */
+    font-weight: 600; /* Set the font weight */
+    cursor: pointer; /* Change the cursor on hover */
+    transition: background-color 0.2s ease-in-out; /* Add transition for smooth effect */
+  }
+  
+  .btn-primary {
+    background-color: #007bff; /* Set the background color for primary buttons */
+    color: #ffffff; /* Set the text color for primary buttons */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Change the background color on hover */
+  }
+  
+  p {
+    text-align: center; /* Center the text */
+    margin-top: 1rem; /* Add margin at the top of the paragraph */
+  }
+  

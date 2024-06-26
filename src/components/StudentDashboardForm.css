@@ -1,0 +1,79 @@
+/* StudentDashboard.css */
+
+.student-dashboard {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    flex: 1;
+  }
+  
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .sidebar {
+    background-color: #eee;
+    width: 200px;
+    padding: 20px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  /* Style for active link */
+  .sidebar a.active {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Content Sections */
+  .main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  /* Sections */
+  section {
+    margin-bottom: 20px;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
