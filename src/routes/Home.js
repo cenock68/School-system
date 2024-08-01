@@ -4,6 +4,7 @@ import Hero from "../components/Hero";
 import AboutImg from "../assets/sch06.jpg";
 import Navbar from "../components/Navbar";
 import Trip from "../components/Trip";
+import StudentList from "./StudentList";
 
 
 function Home() {
@@ -20,8 +21,9 @@ function Home() {
      btnClass="show"
      />
      <Destination />
+     <StudentList />
      <Trip />
-     <Footer />
+     {/* <Footer /> */}
     </>
   );
 }
